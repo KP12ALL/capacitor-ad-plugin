@@ -7,12 +7,7 @@ import Capacitor
  */
 @objc(AdPlugin)
 public class AdPlugin: CAPPlugin {
-    private let implementation = Ad()
-
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": implementation.echo(value)
-        ])
+    @objc func getAdId(_ call: CAPPluginCall) {
+        call.reject("No implementation")
     }
 }
