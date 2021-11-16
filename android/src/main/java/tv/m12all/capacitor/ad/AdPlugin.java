@@ -1,4 +1,4 @@
-package tv.m12all;
+package tv.m12all.capacitor.ad;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
