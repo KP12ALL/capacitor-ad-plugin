@@ -7,4 +7,4 @@ const Ad = registerPlugin<AdPlugin>('Ad', {
 });
 
 export * from './definitions';
-export { Ad };
+export {Ad};
