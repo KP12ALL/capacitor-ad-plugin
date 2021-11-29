@@ -1,0 +1,23 @@
+{
+  "api": {
+    "name": "AdPlugin",
+    "slug": "adplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getAdId",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getadid"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": []
+}
