@@ -23,10 +23,10 @@ npx cap sync
 ### getAdId()
 
 ```typescript
-getAdId() => any
+getAdId() => Promise<{ id: string; }>
 ```
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;{ id: string; }&gt;</code>
 
 --------------------
 
