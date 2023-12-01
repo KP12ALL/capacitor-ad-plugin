@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/12alltv/capacitor-ad-plugin.git"
+    "url": "git+https://github.com/KP12ALL/capacitor-ad-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/12alltv/capacitor-ad-plugin/issues"
+    "url": "https://github.com/KP12ALL/capacitor-ad-plugin/issues"
   },
   "keywords": [
     "capacitor",
