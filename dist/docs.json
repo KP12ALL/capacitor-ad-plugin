@@ -7,9 +7,9 @@
     "methods": [
       {
         "name": "getAdId",
-        "signature": "() => any",
+        "signature": "() => Promise<{ id: string; }>",
         "parameters": [],
-        "returns": "any",
+        "returns": "Promise<{ id: string; }>",
         "tags": [],
         "docs": "",
         "complexTypes": [],
@@ -19,5 +19,7 @@
     "properties": []
   },
   "interfaces": [],
-  "enums": []
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
 }
