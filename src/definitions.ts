@@ -1,3 +1,3 @@
 export interface AdPlugin {
-  getAdId(): Promise<{ id: string }>
+  echo(options: { value: string }): Promise<{ value: string }>;
 }

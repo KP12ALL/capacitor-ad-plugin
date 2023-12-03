@@ -1,9 +1,10 @@
 # node files
+dist
 node_modules
 
 # iOS files
 Pods
-output
+Podfile.lock
 Build
 xcuserdata
 

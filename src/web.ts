@@ -1,9 +1,10 @@
-import {WebPlugin} from '@capacitor/core';
+import { WebPlugin } from '@capacitor/core';
 
-import type {AdPlugin} from './definitions';
+import type { AdPlugin } from './definitions';
 
 export class AdWeb extends WebPlugin implements AdPlugin {
-  async getAdId(): Promise<{ id: string }> {
-    throw new Error('getAdId() has no web implementation');
+  async echo(options: { value: string }): Promise<{ value: string }> {
+    console.log('ECHO', options);
+    return options;
   }
 }
